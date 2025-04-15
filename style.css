@@ -45,6 +45,10 @@ header{
     padding-right: 30%;
   }
 
+  .sidebar i{
+    color:white;
+  }
+
   .sidebar-section{
     width: 60%;
     display: flex;
