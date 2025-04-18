@@ -12,6 +12,15 @@
     color: white;
 }
 
+.column{
+  height: 700px;  
+  overflow-y: auto;
+}
+
+.column::-webkit-scrollbar{
+  display: none;
+}
+
 /* Header Section */
 
 header img{
@@ -288,6 +297,9 @@ header{
   margin-top: 25px;
 }
 
+.category-heading{
+  padding-bottom: 10px;
+}
 
 .cat-profile-image{
   border-radius: 50%;
@@ -315,19 +327,57 @@ header{
 
 }
 
-.follow:hover{
+.follow-1:hover{
   background-color: #b1aeae;
   color: black;
   transition: ease 0.2s;
   cursor: pointer;
 }
 
+.follow-2:hover{
+  background-color: #b1aeae;
+  color: black;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.follow-3:hover{
+  background-color: #b1aeae;
+  color: black;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.follow-1{
+  margin-left: 90px;
+}
+
+.follow-2{
+  margin-left: 45px;
+}
+
+.follow-3{
+  margin-left: 52px;
+}
   
 /* Main Section */
 
 .main-section{
     border: 1px solid #58585858;
     border-right: 1px solid #585858;
+  }
+
+  
+
+  textarea{
+   margin-top: 30px;
+   width: 350px;
+   height: 30px;
+   background-color: black;
+   border-style: none;
+   font-size: large;
+   color: white;
+
   }
 
   .post-image{
@@ -340,16 +390,6 @@ header{
 
   .post-image img{
     margin: 25px 10px;
-  }
-
-  textarea{
-   margin-top: 30px;
-   width: 350px;
-   height: 30px;
-   background-color: black;
-   border-style: none;
-   font-size: large;
-
   }
 
   .post-icons{
@@ -374,6 +414,36 @@ header{
     justify-content: flex-end;
     margin-bottom: 10px;
   }
+
+  .post-stats-1:hover{
+    background-color: #4289d1;
+    border-radius: 25px;
+    transition: ease-in 0.2s;
+    color: #78b1ed;
+  }
+
+  .post-stats-2:hover{
+    background-color: green;
+    border-radius: 25px;
+    transition: ease-in 0.2s;
+    color: #74e478;
+  }
+
+  .post-stats-3:hover{
+    background-color: red;
+    border-radius: 25px;
+    transition: ease-in 0.2s;
+    color: #e68282;
+  }
+
+  .post-stats-4:hover{
+    background-color: yellow;
+    border-radius: 25px;
+    transition: ease-in 0.2s;
+    color: #59594b;
+  }
+
+  
 
   button{
     background-color: #b1aeae;
@@ -405,6 +475,49 @@ header{
     padding-bottom: 10px;
     color:#4289d1;
   }
+
+  .tweet-image{
+    justify-content: center;
+    width: 325px;
+    margin: 10px 10px;
+
+  }
+
+  .profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  ;
+  }
+
+  .name{
+    display: flex;
+    font-size: 12px;
+  }
+
+.handle-h{
+  margin-top: 5px;
+}
+
+.handle{
+    color:#585858;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .handle-p{
+    font-size: 12px;
+
+  }
+
+  .stat-symbols{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    font-size: 10px;
+    color: #585858;
+  }
+   
   
 
 /* Footer Section */
