@@ -12,6 +12,8 @@
     color: white;
 }
 
+/* Header Section */
+
 header img{
     width: 50px;
     height: 30px;
@@ -29,20 +31,42 @@ header{
 .flex-icon{
   position: relative;
   left: 10%;
+  color: white;
+}
+
+.flex-icon:hover{
+  background-color: #585858;
+  border-radius: 25px;
+  transition: ease 0.2s;
+  cursor: pointer;
 }
 
 
 .flex-item-1{
   position: relative;
   left: 35%;
-  
-
 }
+
+
+.flex-item-1:hover{
+  background-color: #585858;
+  border-radius: 5px;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
 
 .flex-item-2{
   position: relative;
   left: 45%;
 
+}
+
+.flex-item-2:hover{
+  background-color: #585858;
+  border-radius: 5px;
+  transition: ease 0.2s;
+  cursor: pointer;
 }
 
 
@@ -59,6 +83,8 @@ header{
   color: white;
 }
 
+
+/* Side Navigation */
 
 .column {
     float: left;
@@ -115,7 +141,7 @@ header{
   }
 
   .sidebar button:hover{
-    background-color: #b1aeae;
+    background-color: #256191;
     transition: ease 0.2s;
   }
 
@@ -297,11 +323,89 @@ header{
 }
 
   
+/* Main Section */
+
 .main-section{
     border: 1px solid #58585858;
     border-right: 1px solid #585858;
   }
 
+  .post-image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-style:solid;
+    border-color: #353434;
+  }
+
+  .post-image img{
+    margin: 25px 10px;
+  }
+
+  textarea{
+   margin-top: 30px;
+   width: 350px;
+   height: 30px;
+   background-color: black;
+   border-style: none;
+   font-size: large;
+
+  }
+
+  .post-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #4a99e9;
+    cursor: pointer;
+    
+  }
+
+  .post-symbol:hover{
+    background-color: #0c0c2b;
+    transition: ease 0.2s;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+  }
+
+  .post-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+  button{
+    background-color: #b1aeae;
+    border-style: none;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .show-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #585858;
+    border-bottom: 1px solid #585858;
+    cursor: pointer;
+  }
+
+  .show-more:hover{
+    background-color: #141313;
+    transition: ease 0,2s;
+  }
+
+  h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#4289d1;
+  }
+  
 
 /* Footer Section */
 
