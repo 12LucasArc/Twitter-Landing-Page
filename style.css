@@ -93,7 +93,7 @@ header{
 }
 
 
-/* Side Navigation */
+/* Side bar left */
 
 .column {
     float: left;
@@ -179,6 +179,8 @@ header{
     color:#95979a;
   }
 
+
+  /* Trend section */
 .trend-subs{
     margin-left: 10px;
     font-size: 12px;
@@ -328,21 +330,21 @@ header{
 }
 
 .follow-1:hover{
-  background-color: #b1aeae;
+  background-color: #ffffff;
   color: black;
   transition: ease 0.2s;
   cursor: pointer;
 }
 
 .follow-2:hover{
-  background-color: #b1aeae;
+  background-color: hsl(0, 0%, 100%);
   color: black;
   transition: ease 0.2s;
   cursor: pointer;
 }
 
 .follow-3:hover{
-  background-color: #b1aeae;
+  background-color: #ffffff;
   color: black;
   transition: ease 0.2s;
   cursor: pointer;
@@ -479,6 +481,7 @@ header{
   .tweet-image{
     justify-content: center;
     width: 325px;
+    height: 300px;
     margin: 10px 10px;
 
   }
